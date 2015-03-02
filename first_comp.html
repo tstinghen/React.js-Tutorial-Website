@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+<meta charset="utf-8"/>
+<title>React Tutorial</title>
+<link rel="stylesheet" type="text/css" href="/~stinghet/tutorial/tutorial.css">
+</head> 
+<body> 
+<div id="head"> 
+<h1>React To-Do List Tutorial</h1>
+<br/>
+<h2>First Component</h2> 
+</div> 
+<div class="blue"> 
+<table class="navTable"><tr><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/start.html">1. Introduction
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/set_up.html">2. Set-Up</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/first_comp.html">3. First Component</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/list.html">4. Create a List</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/new_entry.html">5. Create Entry</a>
+</td></tr><tr><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/basic_form.html">6. Basic Form</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/adv_form.html">7. Advanced Form</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/three_func.html">8. Process Data</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/finish.html">9. Print List</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/final.html">10. Final Product</a>
+</td></tr></table>
+</div> 
+<br/>
+
+<div class = "yellow"> 
+We're going to write the first component. It's not going to do much, just print some text.
+<br/><br/>
+These first steps are very important in getting an understanding of how React operates and is structured. The first few actions that we will be working through could be easily accomplished in html, with a lot less effort. I hope that you will find that this set up is very much worth it, once we get to step 7 or 8, as we explore React's ability to interact with the user and create a virtual DOM.  
+<br/>
+</div> 
+<br/>
+<div class = "blue">
+<br/> 
+<img src="http://i.imgur.com/14qzzXp.jpg" alt="First Component" class="center">
+<br/>
+</div> 
+<br/>
+<div class = "yellow">
+The first thing to do is create a class of type React, which takes an object as it's parameter. 
+We're going to call it "List" since it is going to be the basis of the entire to-do list... eventually. 
+<br/><br/>
+Inside the object, we'll put a render function, and have it return some text and html.  
+The render function creates something that we can print to the screen later. 
+<br/><br/>
+The html or text being returned by the render function doesn't have to be in parenthesis, but if it is in parenthesis, we can add multiple lines of formatting marks, to make it look nice. This is where the concept of the Virual DOM really starts to come into play. The site is going to have formatted 
+content, but the only thing outside the script tag is this single div. Pretty neat! 
+<br/><br/>
+Next, we call a React function, React.renderComponent() and give it our object "List" and the location that we want it to render to (a basic html div in the body, called "toDoList") and it will print the contents of the render function to the div. 
+<br/><br/>
+</div> 
+<br/>
+<div class="blue">
+<br/>
+<img src="http://i.imgur.com/6ZuYOVk.jpg" alt="Basic React.js Set-Up" class="center">
+<br/>
+</div> 
+<br/>
+<div class = "yellow">
+See? 
+<br/> 
+</div>
+<br/>
+<div id="navigator" class = "blue"> 
+<table class="navTable"><tr><td id="prev">
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/set_up.html">Previous</a>
+</td><td id="next">
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/list.html">Next</a>
+</td></tr></table> 
+</div>
+<br/><br/>
+
+
+</body>
+	

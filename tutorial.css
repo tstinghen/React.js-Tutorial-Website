@@ -1,0 +1,24 @@
+
+#head {text-align:center; color: #94DAAE; font-weight: bold; font-size:200%; line-height: 30%}
+#prev{text-align:left;} 
+#start{text-align:left;} 
+#next{text-align:right;}
+#react{text-align:center;}
+.siteMap{width: 100%;}
+.navTable {width: 100%;}
+.yellow {background-color:#94DAAE; padding: 20px;}
+.blue {background-color:#94ADD1; padding: 20px;}
+
+.center {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+	border: 10px solid #2B4E83;
+    border-radius: 15px;
+}
+body{font-family: helvetica; background-color:#2B4E83; margin: 50px 50px; color: #2E294D }
+
+a:link {text-decoration: none; font-weight:bold; color: #2E294D}
+a:visited {text-decoration: none; font-weight:bold; color: #2E294D}
+a:hover {text-decoration: underline; color: #25904D}
+a:active {text-decoration: underline; color: #25904D}

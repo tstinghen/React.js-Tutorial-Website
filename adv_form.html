@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+<meta charset="utf-8"/>
+<title>React Tutorial</title>
+<link rel="stylesheet" type="text/css" href="/~stinghet/tutorial/tutorial.css">
+</head> 
+<body> 
+<div id="head"> 
+<h1>React To-Do List Tutorial</h1>
+<br/>
+<h2>State and Advanced Form </h2> 
+</div> 
+<div class="blue"> 
+<table class="navTable"><tr><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/start.html">1. Introduction
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/set_up.html">2. Set-Up</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/first_comp.html">3. First Component</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/list.html">4. Create a List</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/new_entry.html">5. Create Entry</a>
+</td></tr><tr><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/basic_form.html">6. Basic Form</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/adv_form.html">7. Advanced Form</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/three_func.html">8. Process Data</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/finish.html">9. Print List</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/final.html">10. Final Product</a>
+</td></tr></table>
+</div> 
+<br/>
+
+<div class = "yellow"> 
+We are going to add a function to the top of our List class, called getInitialState, which initializes item and due, in our info object, to empty 
+strings. 
+<br/><br/>
+</div> 
+<br/>
+<div class = "blue">
+<br/> 
+<img src="http://i.imgur.com/Qu5GTVB.jpg" alt="State" class="center">
+<br/>
+</div> 
+<br/>
+<div class = "yellow">
+State is like props, in that it refers to attributes of an object. State, however, is what we want to use when getting input from the user, because 
+when state changes, React knows to update that specific part of the DOM (and not to update other parts of the DOM). 
+<br/><br/>So, to access an attribute's 
+state we would say 
+<br/><br/>
+{this.state.attributeName}
+<br/><br/>
+</div> 
+<br/>
+<div class="blue">
+<br/>
+<img src="http://i.imgur.com/tMWQdPY.jpg" alt="Form with State" class="center">
+<br/>
+</div> 
+<br/>
+<div class = "yellow">
+The form also needs some more information about the object's states. 
+<br/></br/> 
+We'll add information to each input field about the input's value, and onChange action. 
+<br/><br/>
+This new data will associate the state of item and due with the text entered 
+into the form, and also names two new functions that we will use to handle the data that is entered: changeInfo, and changeData. 
+<br/> 
+</div>
+<br/>
+<div id="navigator" class = "blue"> 
+<table class="navTable"><tr><td id="prev">
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/basic_form.html">Previous</a>
+</td><td id="next">
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/three_func.html">Next</a>
+</td></tr></table> 
+</div>
+<br/><br/>
+
+
+</body>
+	

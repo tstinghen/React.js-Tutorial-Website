@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+<meta charset="utf-8"/>
+<title>React Tutorial</title>
+<link rel="stylesheet" type="text/css" href="/~stinghet/tutorial/tutorial.css">
+</head> 
+<body> 
+<div id="head"> 
+<h1>React To-Do List Tutorial</h1>
+<br/>
+<h2>Three New Functions</h2> 
+</div> 
+<div class="blue"> 
+<table class="navTable"><tr><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/start.html">1. Introduction
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/set_up.html">2. Set-Up</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/first_comp.html">3. First Component</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/list.html">4. Create a List</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/new_entry.html">5. Create Entry</a>
+</td></tr><tr><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/basic_form.html">6. Basic Form</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/adv_form.html">7. Advanced Form</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/three_func.html">8. Process Data</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/finish.html">9. Print List</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/final.html">10. Final Product</a>
+</td></tr></table>
+</div> 
+<br/>
+
+
+<div class = "yellow"> 
+So far we have named three new functions to use in our form, but haven't written any of them. They are: 
+<ul> 
+<li>changeItem </li>
+<li>changeDue</li>
+<li>submitForm</li>
+</ul>
+</div> 
+<br/>
+<div class = "blue">
+<br/> 
+<img src="http://i.imgur.com/L0ndZ1q.jpg" alt="Three Functions" class="center">
+<br/>
+</div> 
+<br/>
+<div class = "yellow">
+As you can see, all three are going to accept an argument e, and are going to go below the getInitialState function inside the List object. 
+<br/><br/>
+The changeItem function calls the function setState, which is a native React function, and set the state of item to the text entered in the "new item" 
+form box. 
+<br/><br/>
+The changeDue function does the same thing for the property due. 
+<br/><br/>
+submitForm calls the function preventDefault, which is another native React function that prevents errors when setting states. 
+<br/><br/>
+Then it pushes the two states that were just defined in the change functions, into the state of info (since item and due are properties of info). 
+<br/><br/>
+After that, the state gets set back to an empty string, (the same as the initial state). 
+<br/><br/>
+</div> 
+<br/>
+
+<div id="navigator" class = "blue"> 
+<table class="navTable"><tr><td id="prev">
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/adv_form.html">Previous</a>
+</td><td id="next">
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/finish.html">Next</a>
+</td></tr></table> 
+</div>
+<br/><br/>
+
+
+</body>
+	

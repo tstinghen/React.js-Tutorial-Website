@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+<meta charset="utf-8"/>
+<title>React Tutorial</title>
+<link rel="stylesheet" type="text/css" href="/~stinghet/tutorial/tutorial.css">
+</head> 
+<body> 
+<div id="head"> 
+<h1>React To-Do List Tutorial</h1>
+<br/>
+<h2>Create the New Entry Component</h2> 
+</div> 
+<div class="blue"> 
+<table class="navTable"><tr><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/start.html">1. Introduction
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/set_up.html">2. Set-Up</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/first_comp.html">3. First Component</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/list.html">4. Create a List</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/new_entry.html">5. Create Entry</a>
+</td></tr><tr><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/basic_form.html">6. Basic Form</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/adv_form.html">7. Advanced Form</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/three_func.html">8. Process Data</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/finish.html">9. Print List</a>
+</td><td>
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/final.html">10. Final Product</a>
+</td></tr></table>
+</div> 
+<br/>
+
+
+<div class = "yellow"> 
+We want to render our data dynamically, so we're going to need a component that takes some information and turns it into an Entry that is formatted 
+for our to-do list. 
+<br/><br/>
+This is a component that we are going to build now and use later. It's not going to have a back end yet, so it may not be obvious what it does or why we're making it until a few steps farther down the road, when we're actually getting input to create these new entries with newEntry. 
+
+<br/><br/>
+</div> 
+<br/>
+<div class = "blue">
+<br/> 
+<img src="http://i.imgur.com/s6f1teM.jpg" alt="New Entry" class="center">
+<br/>
+</div> 
+<br/>
+<div class = "yellow">
+It's time to create another component! This one is called newEntry, because it's going to get some information from... somewhere, and make it into an Entry. 
+<br/><br/>
+newEntry could get information from an array of data, or from a file. We want it to come from the user, so we are not going to define where the information is coming from until later. 
+<br/><br/>
+We map the information from info onto the object Entry, specifying what props map to what. We're going to make sure to call our info the same names as our Entry data, just to make things easier. That way, item maps to item, and due maps to due. <br/><br/>
+<br/><br/>
+</div> 
+<br/>
+<div class="blue">
+<br/>
+<img src="http://i.imgur.com/1HY93SN.jpg" alt="List in Action" class="center">
+<br/>
+</div> 
+<br/>
+<div class = "yellow">
+Since we're planning to have our information coming from this info object, which is creating entries for us, we need to make a change to the List component (that's the very first component we created.)
+<br/><br/>
+For right now, we are going to delete the to-do list info information from List. We'll add it back in later, once we've set up a system for getting the information we need. 
+<br/> 
+</div>
+<br/>
+<div id="navigator" class = "blue"> 
+<table class="navTable"><tr><td id="prev">
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/list.html">Previous</a>
+</td><td id="next">
+<a href="http://web.engr.oregonstate.edu/~stinghet/tutorial/basic_form.html">Next</a>
+</td></tr></table> 
+</div>
+<br/><br/>
+
+
+</body>
+	
